@@ -1,0 +1,1 @@
+export const usersUrl = "https://reqres.in/api/users";

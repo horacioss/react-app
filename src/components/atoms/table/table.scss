@@ -1,0 +1,76 @@
+.custom-table {
+    width: 100%;
+    overflow: auto;
+    border-spacing: 0px 2px;
+}
+
+.custom-table th {
+    z-index: 2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.custom-table thead.light {
+    background-color: var(--white);
+    color: var(--darkGrey500);
+}
+
+.custom-table th {
+    font-family: Prelo-Bold, helvetica, arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+.custom-table th, td {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.custom-table th.align-right {
+    text-align: right !important;
+}
+.custom-table th.align-left {
+    text-align: left !important;
+}
+.custom-table th.align-center {
+    text-align: center !important;
+}
+
+
+.custom-table tbody tr {
+    height: 64px;
+}
+
+.custom-table td {
+    color: var(--darkGrey500);
+    font-family: Prelo-Medium, helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 16px;
+}
+
+.custom-table th.align-right {
+    text-align: right !important;
+}
+.custom-table th.align-left {
+text-align: left !important;
+}
+.custom-table td.align-center {
+text-align: center !important;
+}
+
+.custom-table tbody tr:hover {
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px var(--strongBlue500);
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: var(--darkGrey100);
+}
